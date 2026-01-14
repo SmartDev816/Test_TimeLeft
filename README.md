@@ -125,7 +125,7 @@ The home page has a “Go to events” button that links to `/events`.
     - Table is horizontally scrollable.
     - Controls wrap nicely on narrow viewports.
 
-## Project Structure (high level)
+## Project Structure 
 
 - `app/layout.tsx` – Root layout and header.
 - `app/globals.css` – Global Tailwind setup and shared utility classes.
@@ -133,7 +133,7 @@ The home page has a “Go to events” button that links to `/events`.
 - `app/events/page.tsx` – Server component: fetches events and renders `EventsClient`.
 - `app/events/EventsClient.tsx` – Client component: filters, sorting, pagination, URL sync, modal, and UI.
 
-## Possible Improvements (if there were more time)
+## Possible Improvements
 
 - Add unit tests for filtering, sorting, and pagination logic.
 - Extract table, status badges, and pagination into reusable UI primitives.
