@@ -28,7 +28,6 @@ By default Next.js uses port **3000**, but if it’s already taken it will fall 
 Check the terminal output and open the printed URL, e.g.:
 
 - `http://localhost:3000`
-- or `http://localhost:3001`
 
 ### 3. Navigate to the Event List
 
