@@ -1,8 +1,6 @@
 # Timeleft Frontend Tech Test – Event List Back-Office
 
-This is a small Next.js + TypeScript app implementing the **Event List** screen for a back-office used to manage social events.
-
-The focus is on a clear, responsive UI, URL‑synced state, and good frontend structure.
+URL : https://test-time-left.vercel.app/
 
 ## Stack
 
