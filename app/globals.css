@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  @apply bg-background text-slate-950 antialiased;
+}
+
+.app-shell {
+  @apply min-h-screen bg-slate-950;
+}
+
+.card {
+  @apply rounded-2xl border border-slate-200/60 bg-white/90 shadow-card backdrop-blur-sm;
+}
+
+.scrollbar-thin::-webkit-scrollbar {
+  height: 6px;
+  width: 6px;
+}
+
+.scrollbar-thin::-webkit-scrollbar-track {
+  @apply bg-slate-100;
+}
+
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  @apply rounded-full bg-slate-400;
+}
+
+
